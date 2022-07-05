@@ -7,3 +7,24 @@
 body {
   background: #36D6AD;
 }
+
+/*======CONFIGURAÇÕES MENU DE HOME E MENSAGEM DO HEADER====*/
+
+.menu-header {
+  display: flex;
+  margin-top: 48px;
+
+}
+.home,
+.mensagens {
+  padding-left: 58.61px;
+}
+
+.icone-usuario {
+  padding-left: 150px;
+  padding-right: 37px
+}
+
+footer {
+  color: white;
+}
