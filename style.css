@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  --primary-color: #36D6AD;
+  --text-primary-color: #FFFFFF;
+  --color-button-pag-inicial: #FC7071;
+
+}
+
+body {
+  background: var(--primary-color);
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto Mono', monospace;
+}
+
+/*======CONFIGURAÇÕES MENU DE HOME E MENSAGEM DO HEADER====*/
+
+.menu-header {
+  display: flex;
+  margin-top: 48px;
+
+}
+.home,
+.mensagens {
+  padding-left: 58.61px;
+  
+}
+
+.icone-usuario {
+  padding-left: 150px;
+  padding-right: 37px
+}
+
+/*=======CONFIGURAÇÃO LOGO=======*/
+.logo-index {
+  display: flex;
+  padding-top: 98.99px;
+  padding-bottom: 24px;
+  justify-content: center;
+}
+
+/*=======CONFIGURAÇÃO DOS TEXTOS DA PÁGINA INICIAL=======*/
+
+.textos-pag-inicial {
+  text-align: center;
+  color: var(--text-primary-color);
+}
+
+.h2-pag-inicial {
+  padding-top: 24px;
+  padding-bottom: 16px;
+}
+
+.paragrafo-pag-inicial {
+  padding-left: 56px;
+  padding-right: 56px;
+}
+
+/*=======CONFIGURAÇÃO DOS BOTOES DA PÁGINA INICIAL=======*/
+
+.buttons-pag-inicial {
+  display: flex;
+  flex-direction: column;
+  padding-top: 24px;
+  padding-bottom: 16px; 
+}
+
+.button-ja-tenho-conta {
+  font-size: 16px;
+  width: 180px;
+  height: 40px;
+  margin-left: auto;
+  margin-right: auto; 
+  margin-bottom: 16px;
+  border-radius: 6px;
+  color: var(--text-primary-color);
+  background: var(--color-button-pag-inicial);
+  border-style: none;
+}
+
+.button-quero-me-cadastrar {
+  font-size: 16px;
+  width: 180px;
+  height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 6px;
+  color: var(--text-primary-color);
+  background: var(--color-button-pag-inicial);
+  border-style: none; 
+}
+
+
+/*=======CONFIGURAÇÃO FOOTER=======*/
+footer {
+  margin-top: 41px;
+  margin-bottom: 41px;
+  color: var(--text-primary-color);
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 13px;
+}
