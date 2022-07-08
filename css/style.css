@@ -8,6 +8,7 @@ html {
   --primary-color: #36D6AD;
   --text-primary-color: #FFFFFF;
   --color-button-pag-inicial: #FC7071;
+
 }
 
 body {
@@ -64,22 +65,33 @@ body {
 .buttons-pag-inicial {
   display: flex;
   flex-direction: column;
-  border-radius: 6%;
-  margin-top: 24px;
-  margin-bottom: 16px;
-  margin-right: 40px;
-  margin-left: 180px; 
+  padding-top: 24px;
+  padding-bottom: 16px; 
 }
 
-.buttun-ja-tenho-conta {
+.button-ja-tenho-conta {
+  font-size: 16px;
   width: 180px;
   height: 40px;
-  
+  margin-left: auto;
+  margin-right: auto; 
+  margin-bottom: 16px;
+  border-radius: 6px;
+  color: var(--text-primary-color);
+  background: var(--color-button-pag-inicial);
+  border-style: none;
 }
 
 .button-quero-me-cadastrar {
+  font-size: 16px;
   width: 180px;
   height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 6px;
+  color: var(--text-primary-color);
+  background: var(--color-button-pag-inicial);
+  border-style: none; 
 }
 
 
