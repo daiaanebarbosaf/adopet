@@ -11,6 +11,7 @@
   </head>
   <body class="pag-cadastro">
     <nav id="navigation">
+      <img class="img-patinhas" src="./assets/patinhas.png" alt="Patrinhas de gatinhos e cachorrinhos coloridas">
       <div class="menu-header">
         <a class="home" href="#home">
           <svg 
@@ -83,7 +84,22 @@
       </div>
 
       <form class="form-pag-cadastro" action="">
-        <label class="labels-pag-cadastro"for="E-mail">E-mail:</label>
+        <label class="labels-pag-cadastro"for="email">E-mail:</label>
+        <input class="input-forms-pag-cadastro" type="email" id="email" required placeholder="Escolha seu melhor email">
+
+        <label class="labels-pag-cadastro"for="name">Nome:</label>
+        <input class="input-forms-pag-cadastro" type="name" id="name" required placeholder="Digite seu nome completo">
+
+        <label class="labels-pag-cadastro"for="senha">Senha:</label>
+        <input class="input-forms-pag-cadastro" type="password" id="senha" required placeholder="Digite seu nome completo">
+
+        <label class="labels-pag-cadastro"for="confirm-senha">Senha:</label>
+        <input class="input-forms-pag-cadastro" type="password" id="confirm-senha" required placeholder="Repita a senha criada acima">
+
+        <div class="buttons-pag-cadastro">
+          <button class="button-cadastrar">Cadastrar</button>
+        </div>
+
       </form>
     </main>
   </body>
