@@ -8,6 +8,7 @@ html {
   --primary-color: #36D6AD;
   --segundary-color: #3772FF;
   --text-primary-color: #FFFFFF;
+  --segundary-text-color: #737380;
   --color-button-pag-inicial: #FC7071;
 
 }
@@ -80,7 +81,7 @@ body {
   color: var(--text-primary-color);
   background: var(--color-button-pag-inicial);
   border-style: none;
-  box-shadow: 1px 1px 3px #737380;
+  box-shadow: 1px 1px 3px var(--segundary-text-color);
 }
 
 .button-quero-me-cadastrar {
@@ -93,7 +94,7 @@ body {
   color: var(--text-primary-color);
   background: var(--color-button-pag-inicial);
   border-style: none; 
-  box-shadow: 1px 1px 3px #737380;
+  box-shadow: 1px 1px 3px var(--segundary-text-color);
 }
 
 /*=======CONFIGURAÇÃO DA IMAGEM DO CACHORRO DA PÁGINA INICIAL=======*/
