@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  --primary-color: #36D6AD;
+  --segundary-color: #3772FF;
+  --text-primary-color: #FFFFFF;
+  --segundary-text-color: #737380;
+  --color-button-pag-inicial: #FC7071;
+
+}
+
+body {
+  background: var(--segundary-color);
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto Mono', monospace;
+}
+
+/*======CONFIGURAÇÕES MENU DE HOME E MENSAGEM DO HEADER====*/
+
+.menu-header {
+  display: flex;
+  margin-top: 48px;
+
+}
+.home,
+.mensagens {
+  padding-left: 58.61px;
+  
+}
+
+/*=======CONFIGURAÇÃO LOGO=======*/
+.logo-pag-cadastro {
+  display: flex;
+  padding-top: 98.99px;
+  padding-bottom: 24px;
+  justify-content: center;
+}
+
+/*=======CONFIGURAÇÃO DOS TEXTOS DA PÁGINA DE CADASTRO=======*/
+
+.textos-pag-cadastro {
+  text-align: center;
+  color: var(--segundary-color);
+}
+
+.paragrafo-pag-cadastro-1, 
+.paragrafo-pag-cadastro-2 {
+  margin-left: 24px;
+  margin-right: 24px;
+  font-size: 16px;
+}
+
+.paragrafo-pag-cadastro-2 {
+  margin-top: 10px;
+}
+
+/*=======CONFIGURAÇÃO DOS FORMS PÁGINA CADASTRO=======*/
+input {
+  text-align: center;
+  color: var();
+}
+
+/*=======CONFIGURAÇÃO DOS BOTOES DA PÁGINA INICIAL=======*/
+
+
+/*=======CONFIGURAÇÃO DA IMAGEM DO CACHORRO DA PÁGINA INICIAL=======*/
+
+/*=======CONFIGURAÇÃO DA PÁGINA DE CADASTRO=======*/
+.logo-pag-cadastro {
+  display: flex;
+  padding-top: 86.99px;
+  padding-bottom: 24px;
+  justify-content: center;
+}
+
+.pag-cadastro {
+  background-color: #737380;
+}
+
+/*=======CONFIGURAÇÃO FOOTER=======*/
+footer {
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  padding-top: 41px;
+  padding-bottom: 41px;
+  color: var(--text-primary-color);
+  font-family: 'Poppins', sans-serif;
+  font-size: 13px;
+  background: var(--primary-color);
+}
