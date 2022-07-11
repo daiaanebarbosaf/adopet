@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #36D6AD;
+  --segundary-color: #3772FF;
+  --text-primary-color: #FFFFFF;
+  --segundary-text-color: #737380;
+  --third-text-color: #BCBCBC;
+  --color-button-pag-inicial: #FC7071;
+  --color-fund-input: #F6F6F6;
+  --color-creme: #FCF0E3;
+
+  --font-principal:'Poppins', sans-serif;
+  --font-secundaria: 'IBM Plex Sans', sans-serif;
+}
+
+body {
+  background-image: url('./assets/forma1-header.png'), url('./assets/forma2-body.png');
+
+  background-repeat: no-repeat;
+  background-position: left top, right center;
+
+  min-height: 100vh;/*definindo tamanho da página*/
+}
+
+.background-body {
+  background-color: var(--segundary-color);
+}
+
+/*======CONFIGURAÇÕES MENU DE HOME E MENSAGEM DO HEADER====*/
+
+.menu-header {
+  padding: 3em;
+}
+.home,
+.mensagens {
+  padding-right: 2em;
+}
+
+.icone-usuario {
+  padding-left: 150px;
+  padding-right: 37px
+}
+
+/*=======CONFIGURAÇÃO LOGO=======*/
+.logo-index {
+  display: flex;
+  padding-top: 98.99px;
+  padding-bottom: 24px;
+  justify-content: center;
+}
+
+/*=======CONFIGURAÇÃO DOS TEXTOS DA PÁGINA INICIAL=======*/
+
+.textos-pag-inicial {
+  text-align: center;
+  color: var(--text-primary-color);
+}
+
+.h2-pag-inicial {
+  padding-top: 24px;
+  padding-bottom: 16px;
+}
+
+.paragrafo-pag-inicial {
+  padding-left: 56px;
+  padding-right: 56px;
+}
+
+/*=======CONFIGURAÇÃO DOS BOTOES DA PÁGINA INICIAL=======*/
+
+.buttons-pag-inicial {
+  display: flex;
+  flex-direction: column;
+  padding-top: 24px;
+}
+
+.button-ja-tenho-conta {
+  font-size: 16px;
+  width: 180px;
+  height: 40px;
+  margin-left: auto;
+  margin-right: auto; 
+  margin-bottom: 16px;
+  border-radius: 6px;
+  color: var(--text-primary-color);
+  background: var(--color-button-pag-inicial);
+  border-style: none;
+  box-shadow: 1px 1px 3px var(--segundary-text-color);
+}
+
+.button-quero-me-cadastrar {
+  font-size: 16px;
+  width: 180px;
+  height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 6px;
+  color: var(--text-primary-color);
+  background: var(--color-button-pag-inicial);
+  border-style: none; 
+  box-shadow: 1px 1px 3px var(--segundary-text-color);
+}
+
+/*=======CONFIGURAÇÃO DA IMAGEM DO CACHORRO DA PÁGINA INICIAL=======*/
+.img-dog-coracoes-pag-inicial {
+  display: flex;
+  margin-left: 7rem;
+  padding-top: 16px;
+}
+
+/*=======CONFIGURAÇÃO FOOTER=======*/
+footer {
+  position: relative;
+  text-align: center;
+  padding-top: 41px;
+  padding-bottom: 41px;
+  color: var(--text-primary-color);
+  font-family: 'Poppins', sans-serif;
+  font-size: 13px;
+  background: var(--primary-color);
+  margin-top: -1rem;
+}
