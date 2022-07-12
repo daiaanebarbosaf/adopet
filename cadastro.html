@@ -3,15 +3,14 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style-pag-cadastro.css"/>
+    <link rel="stylesheet" href="./style-pag-cadastro.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com"/>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto+Mono&display=swap" rel="stylesheet"/>
     <title>Cadastro</title>
   </head>
-  <body class="pag-cadastro">
+  <body class="body-pag-cadastro">
     <nav id="navigation">
-      <img class="img-patinhas" src="./assets/patinhas.png" alt="Patrinhas de gatinhos e cachorrinhos coloridas">
       <div class="menu-header">
         <a class="home" href="#home">
           <svg 
@@ -78,10 +77,12 @@
         </svg>
       </a>
 
-      <div class="textos-pag-cadastro">
-        <p class="paragrafo-pag-cadastro-1">Ainda não tem cadastro?</p>
-        <p class="paragrafo-pag-cadastro-2">Então, antes de buscar seu melhor amigo, precisamos de alguns dados:</p>
-      </div>
+      <section class="paragrafos-cadastro">
+        <p class="">Ainda não tem cadastro?
+        </p>
+        <p class="paragrafo__cadastro">Então, antes de buscar seu melhor amigo, precisamos de alguns dados:
+        </p>
+      </section>
 
       <form class="form-pag-cadastro" action="">
         <label class="labels-pag-cadastro"for="email">E-mail:</label>
@@ -95,6 +96,8 @@
 
         <label class="labels-pag-cadastro"for="confirm-senha">Senha:</label>
         <input class="input-forms-pag-cadastro" type="password" id="confirm-senha" required placeholder="Repita a senha criada acima">
+
+        <a href="./assets/senha-protegida.png"></a>
 
         <div class="buttons-pag-cadastro">
           <button class="button-cadastrar">Cadastrar</button>

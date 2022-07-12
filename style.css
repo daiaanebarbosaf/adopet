@@ -19,10 +19,16 @@
 }
 
 body {
-  background-image: url('./assets/forma1-header.png'), url('./assets/forma2-body.png'), url('./assets/cat-dog.png');
+  background-image: 
+  url('./assets/forma1-header.png'), 
+  url('./assets/forma2-body.png'), 
+  url('./assets/cat-dog.png');
 
   background-repeat: no-repeat;
-  background-position: left top, right center, bottom center;
+  background-position: 
+  left top, 
+  right center,
+  bottom 5em center;
 
   min-height: 100vh;/*definindo tamanho da página*/
 }
@@ -122,13 +128,6 @@ body {
   box-shadow: 1px 1px 3px var(--segundary-text-color);
 }
 
-/*=======CONFIGURAÇÃO DA IMAGEM DO CACHORRO DA PÁGINA INICIAL=======*/
-.img-dog-coracoes-pag-inicial {
-  display: flex;
-  margin-left: 7rem;
-  padding-top: 16px;
-}
-
 /*=======CONFIGURAÇÃO FOOTER=======*/
 footer {
   text-align: center;
@@ -136,7 +135,10 @@ footer {
   padding-bottom: 41px;
   color: var(--text-primary-color);
   font-family: var(--font-principal);
-  font-size: 13px;
   background: var(--primary-color);
-  margin-top: -1rem;
+  font-family: var(--font-principal);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
 }
