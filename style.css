@@ -19,10 +19,10 @@
 }
 
 body {
-  background-image: url('./assets/forma1-header.png'), url('./assets/forma2-body.png');
+  background-image: url('./assets/forma1-header.png'), url('./assets/forma2-body.png'), url('./assets/cat-dog.png');
 
   background-repeat: no-repeat;
-  background-position: left top, right center;
+  background-position: left top, right center, bottom center;
 
   min-height: 100vh;/*definindo tamanho da página*/
 }
@@ -49,24 +49,38 @@ body {
 /*=======CONFIGURAÇÃO LOGO=======*/
 .logo-index {
   display: flex;
-  padding-top: 98.99px;
+  padding-top: 48.99px;
   padding-bottom: 24px;
   justify-content: center;
 }
 
 /*=======CONFIGURAÇÃO DOS TEXTOS DA PÁGINA INICIAL=======*/
 
+.conteudo {
+  height: 100vh;
+}
+
 .textos-pag-inicial {
   text-align: center;
   color: var(--text-primary-color);
 }
 
-.h2-pag-inicial {
+.h1-pag-inicial {
+  font-family: var(--font-secundaria);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 48px;
   padding-top: 24px;
   padding-bottom: 16px;
 }
 
 .paragrafo-pag-inicial {
+  font-family: var(--font-principal);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
   padding-left: 56px;
   padding-right: 56px;
 }
@@ -80,6 +94,7 @@ body {
 }
 
 .button-ja-tenho-conta {
+  font-family: var(--font-principal);
   font-size: 16px;
   width: 180px;
   height: 40px;
@@ -94,6 +109,7 @@ body {
 }
 
 .button-quero-me-cadastrar {
+  font-family: var(--font-principal);
   font-size: 16px;
   width: 180px;
   height: 40px;
@@ -115,12 +131,11 @@ body {
 
 /*=======CONFIGURAÇÃO FOOTER=======*/
 footer {
-  position: relative;
   text-align: center;
   padding-top: 41px;
   padding-bottom: 41px;
   color: var(--text-primary-color);
-  font-family: 'Poppins', sans-serif;
+  font-family: var(--font-principal);
   font-size: 13px;
   background: var(--primary-color);
   margin-top: -1rem;
