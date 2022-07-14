@@ -30,6 +30,7 @@ body {
   right top,
   left top, 
   left 68%;
+
   min-height: 100vh;/*definindo tamanho da página*/
 }
 
@@ -46,7 +47,6 @@ body {
 .home,
 .mensagens {
   padding-left: 58.61px;
-  
 }
 
 /*=======CONFIGURAÇÃO LOGO=======*/
@@ -57,9 +57,7 @@ body {
   justify-content: center;
 }
 
-
 /*=======CONFIGURAÇÃO DOS TEXTOS DA PÁGINA DE CADASTRO=======*/
-
 
 .paragrafos-cadastro{
   text-align: center;
@@ -91,7 +89,6 @@ body {
 }
 
 .input-forms-pag-cadastro {
-  
   font-family: var(--font-principal);
   font-style: normal;
   font-weight: 400;
@@ -115,6 +112,9 @@ body {
 /*=======CONFIGURAÇÃO DOS BOTOES DA PÁGINA DE CADASTRO=======*/
 
 .button-cadastrar {
+  font-family: var(--font-principal);
+  font-style: normal;
+  font-weight: 600;
   font-size: 16px;
   width: 148px;
   height: 40px;
@@ -136,7 +136,6 @@ footer {
   padding-top: 41px;
   padding-bottom: 41px;
   color: var(--text-primary-color);
-  font-family: var(--font-principal);
   background: var(--primary-color);
   font-family: var(--font-principal);
   font-style: normal;
