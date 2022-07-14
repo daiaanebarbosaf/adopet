@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-html {
+:root {
   --primary-color: #36D6AD;
   --segundary-color: #3772FF;
   --text-primary-color: #FFFFFF;
@@ -14,6 +14,8 @@ html {
   --color-fund-input: #F6F6F6;
   --color-creme: #FCF0E3;
 
+  --font-principal:'Poppins', sans-serif;
+  --font-secundaria: 'IBM Plex Sans', sans-serif;
 }
 
 body {
