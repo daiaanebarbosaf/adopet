@@ -13,6 +13,7 @@
   --color-button-pag-inicial: #FC7071;
   --color-fund-input: #F6F6F6;
   --color-creme: #FCF0E3;
+  --color-cinza-text-input: #BCBCBC;
 
   --font-principal:'Poppins', sans-serif;
   --font-secundaria: 'IBM Plex Sans', sans-serif;
@@ -134,7 +135,6 @@ footer {
   padding-top: 41px;
   padding-bottom: 41px;
   color: var(--text-primary-color);
-  font-family: var(--font-principal);
   background: var(--primary-color);
   font-family: var(--font-principal);
   font-style: normal;
