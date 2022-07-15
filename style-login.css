@@ -59,6 +59,15 @@ body {
   margin-bottom: 40px;
 }
 
+/*=======CONFIGURAÇÃO CONTEUDO DA PÁGINA=======*/
+
+.conteudo {
+  height: 120vh;
+  width: 70%;
+  margin: 0 auto;
+  flex-grow: 1;
+}
+
 /*=======CONFIGURAÇÃO DOS TEXTOS DA PÁGINA DE CADASTRO=======*/
 
 .paragrafo-pag-login {
