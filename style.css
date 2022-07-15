@@ -29,9 +29,12 @@ body {
   background-position: 
   left top, 
   right center,
-  bottom 5em center;
+  bottom 4em center;
 
   min-height: 100vh;/*definindo tamanho da página*/
+
+  font-size: 16px;
+  font-family: var(--font-principal);
 }
 
 .background-body {
@@ -64,7 +67,10 @@ body {
 /*=======CONFIGURAÇÃO DOS TEXTOS DA PÁGINA INICIAL=======*/
 
 .conteudo {
-  height: 100vh;
+  height: 120vh;
+  width: 70%;
+  margin: 0 auto;
+  flex-grow: 1;
 }
 
 .textos-pag-inicial {
