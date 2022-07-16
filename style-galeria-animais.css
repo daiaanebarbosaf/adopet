@@ -53,7 +53,7 @@ body {
 /*=======CONFIGURAÇÃO CONTEUDO=======*/
 
 .conteudo {
-  height: 120vh;
+  height: 324vh;
   width: 70%;
   margin: 0 auto;
   flex-grow: 1;
@@ -62,6 +62,7 @@ body {
 /*=======CONFIGURAÇÃO DOS TEXTOS=======*/
 
 .paragrafo-pag-galeria-animais {
+  display: flex;
   text-align: center;
   color: var(--segundary-color);
   margin-left: 67px;
@@ -75,30 +76,266 @@ body {
 
 /*=======CONFIGURAÇÃO DAS LISTAS=======*/
 
-.perfil-pet{
+.itens-lista {
+  margin-top: 32px;
+}
+
+.perfil-pet-dunga {
+  background-color: var(--color-fund-input);
+  width: 460px;
+  height: 196px;
+  display: flex;
+
+  flex-direction: column;
+
+  padding-top: 16px;
+  padding-left: 185px;
+  
+
+  background-image: 
+  url('./assets/dog-dunga.png'),
+  url('./assets/icone-mensagem.png');
+  background-repeat: 
+  no-repeat;
+  background-position: 
+  left 24px center,
+  left 185px bottom 20px;
+}
+
+.perfil-pet-felicia{
   background-color: var(--color-fund-input);
   width: 360px;
   height: 196px;
   top: 224px;
   display: flex;
-  justify-content: flex-start;
+  margin-top: 15px;
+
+  flex-direction: column;
+
+  padding-top: 16px;
+  padding-left: 185px;
+
+  background-image: 
+  url('./assets/cat-felicia.png'),
+  url('./assets/icone-mensagem.png');;
+  background-repeat: 
+  no-repeat;
+  background-position: 
+  left 24px center,
+  left 185px bottom 20px;
 }
 
-.img-pet-perfil {
-  width: 148px;
-  height: 148px;
-  left: 24px;
-  top: 248px;
+.perfil-pet-sirius {
+  background-color: var(--color-fund-input);
+  width: 360px;
+  height: 196px;
+  top: 224px;
+  margin-top: 15px;
+  display: flex;
+
+  flex-direction: column;
+
+  padding-top: 16px;
+  padding-left: 185px;
+
+  background-image: 
+  url('./assets/dog-sirius.png'),
+  url('./assets/icone-mensagem.png');;
+  background-repeat: 
+  no-repeat;
+  background-position: 
+  left 24px center,
+  left 1855px bottom 20px;
 }
+
+.perfil-pet-fiona {
+  background-color: var(--color-fund-input);
+  width: 360px;
+  height: 196px;
+  top: 224px;
+  margin-top: 15px;
+  display: flex;
+
+  flex-direction: column;
+
+  padding-top: 16px;
+  padding-left: 185px;
+
+  background-image: 
+  url('./assets/dog-fiona.png'),
+  url('./assets/icone-mensagem.png');;
+  background-repeat: 
+  no-repeat;
+  background-position: 
+  left 24px center,
+  left 185px bottom 20px;
+}
+
+.perfil-pet-sid {
+  background-color: var(--color-fund-input);
+  width: 360px;
+  height: 196px;
+  top: 224px;
+  margin-top: 15px;
+  display: flex;
+
+  flex-direction: column;
+
+  padding-top: 16px;
+  padding-left: 185px;
+
+  background-image: 
+  url('./assets/dog-sid.png'),
+  url('./assets/icone-mensagem.png');;
+  background-repeat: 
+  no-repeat;
+  background-position: 
+  left 24px center,
+  left 185px bottom 20px;
+}
+
+.perfil-pet-yoda {
+  background-color: var(--color-fund-input);
+  width: 360px;
+  height: 196px;
+  top: 224px;
+  margin-top: 15px;
+  display: flex;
+
+  flex-direction: column;
+
+  padding-top: 16px;
+  padding-left: 185px;
+
+  background-image: 
+  url('./assets/cat-yoda.png'),
+  url('./assets/icone-mensagem.png');;
+  background-repeat: 
+  no-repeat;
+  background-position: 
+  left 24px center,
+  left 185px bottom 20px;
+}
+
+.perfil-pet-lua {
+  background-color: var(--color-fund-input);
+  width: 360px;
+  height: 196px;
+  top: 224px;
+  margin-top: 15px;
+  display: flex;
+
+  flex-direction: column;
+
+  padding-top: 16px;
+  padding-left: 185px;
+
+  background-image: 
+  url('./assets/cat-lua.png'),
+  url('./assets/icone-mensagem.png');;
+  background-repeat: 
+  no-repeat;
+  background-position: 
+  left 24px center,
+  left 185px bottom 20px; 
+}
+
+.perfil-pet-amora {
+  background-color: var(--color-fund-input);
+  width: 360px;
+  height: 196px;
+  top: 224px;
+  margin-top: 15px;
+  display: flex;
+
+  flex-direction: column;
+
+  padding-top: 16px;
+  padding-left: 185px;
+
+  background-image: 
+  url('./assets/dog-amora.png'),
+  url('./assets/icone-mensagem.png');;
+  background-repeat: 
+  no-repeat;
+  background-position: 
+  left 24px center,
+  left 185px bottom 20px; 
+}
+
+.perfil-pet-zelda {
+  background-color: var(--color-fund-input);
+  width: 360px;
+  height: 196px;
+  top: 224px;
+  margin-top: 15px;
+  display: flex;
+
+  flex-direction: column;
+
+  padding-top: 16px;
+  padding-left: 185px;
+
+  background-image: 
+  url('./assets/cat-zelda.png'),
+  url('./assets/icone-mensagem.png');;
+  background-repeat: 
+  no-repeat;
+  background-position: 
+  left 24px center,
+  left 185px bottom 20px; 
+}
+
 
 li {
   list-style: none;
-
 }
 
 ul {
   display: flex;
-  flex-direction: wrap;
+  flex-wrap: wrap;
+
+}
+
+.nome-pet {
+  font-family: var(--font-principal);
+  color: var(--segundary-color);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 8px;
+}
+
+.descricao-pet {
+  font-family: var(--font-principal);
+  color: var(--segundary-text-color);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.localizacao-pet {
+  margin-top: 30px;
+  margin-bottom: 7px;
+  font-family: var(--font-principal);
+  color: var(--segundary-text-color);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+a {
+  text-decoration: none;
+  font-family: var(--font-principal);
+  color: var(--segundary-text-color);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 16px;
+  padding-left: 23px;
 }
 
 
