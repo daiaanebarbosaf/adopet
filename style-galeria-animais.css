@@ -20,18 +20,11 @@
 }
 
 body {
-  background-image:
-  url('./assets/forma1-header.png');
-
-  background-repeat: no-repeat;
-  background-position: 
-  left top;
   min-height: 100vh;
-
 }
 
-.body-pag-login {
-  background-color: var(--text-primary-color);
+.body-pag-galeria-animais {
+  background-color: var();
 }
 
 /*======CONFIGURAÇÕES MENU DE HOME E MENSAGEM DO HEADER====*/
@@ -42,19 +35,19 @@ body {
 }
 .home,
 .mensagens {
-  margin-top: 2rem;
+  margin-top: -16rem;
   padding-left: 3rem;
 }
 
 .icone-usuario {
-  margin-top: 1.5rem;
-  padding-left: 8.5rem;
+  margin-top: -16.5rem;
+  padding-left: 9rem;
 }
 
 /*=======CONFIGURAÇÃO CONTEUDO=======*/
 
 .conteudo {
-  height: 324vh;
+  height: 290vh;
   width: 70%;
   margin: 0 auto;
   flex-grow: 1;
@@ -65,10 +58,9 @@ body {
 .paragrafo-pag-galeria-animais {
   display: flex;
   text-align: center;
+  padding-left: 3rem;
   color: var(--segundary-color);
-  margin-top: 8rem;
-  margin-left: 6rem;
-  margin-right: 6%;
+  margin-top: -13rem;
   font-size: 1rem;
   font-family: var(--font-principal);
   font-style: normal;
@@ -79,21 +71,22 @@ body {
 
 .itens-lista {
   margin-top: 2rem;
+  margin-left: -4rem;
+  margin-right: 0%;
 }
 
 .perfil-pet-dunga {
   background-color: var(--color-fund-input);
-  width: 22rem;
+  width: 25rem;
   height: 12rem;
   display: flex;
-  /*margin-left: -5rem;*/
 
   flex-direction: column;
 
+  margin-bottom: 1rem;
+
   padding-top: 0.8rem;
   padding-left: 11.6rem;
-
-  margin-right: 1rem;
   
 
   background-image: 
@@ -108,9 +101,9 @@ body {
 
 }
 
-.perfil-pet-felicia{
+.perfil-pet-felicia {
   background-color: var(--color-fund-input);
-  width: 22rem;
+  width: 25rem;
   height: 12rem;
 
   display: flex;
@@ -132,14 +125,12 @@ body {
 
 .perfil-pet-sirius {
   background-color: var(--color-fund-input);
-  width: 22rem;
+  width: 25rem;
   height: 12rem;
   margin-top: 1rem;
   display: flex;
 
   flex-direction: column;
-
-  margin-right: 1rem;
 
   padding-top: 0.8rem;
   padding-left: 11.6rem;
@@ -156,14 +147,12 @@ body {
 
 .perfil-pet-fiona {
   background-color: var(--color-fund-input);
-  width: 22rem;
+  width: 25rem;
   height: 12rem;
   margin-top: 1rem;
   display: flex;
 
   flex-direction: column;
-
-  margin-right: 1rem;
 
   padding-top: 0.8rem;
   padding-left: 11.6rem;
@@ -180,14 +169,12 @@ body {
 
 .perfil-pet-sid {
   background-color: var(--color-fund-input);
-  width: 22rem;
+  width: 25rem;
   height: 12rem;
   margin-top: 1rem;
   display: flex;
 
   flex-direction: column;
-
-  margin-right: 1rem;
 
   padding-top: 0.8rem;
   padding-left: 11.6rem;
@@ -204,14 +191,12 @@ body {
 
 .perfil-pet-yoda {
   background-color: var(--color-fund-input);
-  width: 22rem;
+  width: 25rem;
   height: 12rem;
   margin-top: 1rem;
   display: flex;
 
   flex-direction: column;
-
-  margin-right: 1rem;
 
   padding-top: 0.8rem;
   padding-left: 11.6rem;
@@ -228,14 +213,12 @@ body {
 
 .perfil-pet-lua {
   background-color: var(--color-fund-input);
-  width: 22rem;
+  width: 25rem;
   height: 12rem;
   margin-top: 1rem;
   display: flex;
 
   flex-direction: column;
-
-  margin-right: 1rem;
 
   padding-top: 0.8rem;
   padding-left: 11.6rem;
@@ -252,14 +235,12 @@ body {
 
 .perfil-pet-amora {
   background-color: var(--color-fund-input);
-  width: 22rem;
+  width: 25rem;
   height: 12rem;
   margin-top: 1rem;
   display: flex;
 
   flex-direction: column;
-
-  margin-right: 1rem;
 
   padding-top: 0.8rem;
   padding-left: 11.6rem;
@@ -276,14 +257,12 @@ body {
 
 .perfil-pet-zelda {
   background-color: var(--color-fund-input);
-  width: 22rem;
+  width: 25rem;
   height: 12rem;
   margin-top: 1rem;
   display: flex;
 
   flex-direction: column;
-
-  margin-right: 1rem;
 
   padding-top: 0.8rem;
   padding-left: 11.6rem;
@@ -313,9 +292,9 @@ ul {
   color: var(--segundary-color);
   font-style: normal;
   font-weight: 600;
-  font-size: 16px;
-  line-height: 20px;
-  margin-bottom: 8px;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  margin-bottom: 0.5rem;
 }
 
 .descricao-pet {
@@ -323,19 +302,19 @@ ul {
   color: var(--segundary-text-color);
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 20px;
+  font-size: 0.9rem;
+  line-height: 1.3rem;
 }
 
 .localizacao-pet {
-  margin-top: 30px;
-  margin-bottom: 7px;
+  margin-top: 1.8rem;
+  margin-bottom: 0.5rem;
   font-family: var(--font-principal);
   color: var(--segundary-text-color);
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
-  line-height: 16px;
+  font-size: 0.8rem;
+  line-height: 1rem;
 }
 
 a {
@@ -344,12 +323,19 @@ a {
   color: var(--segundary-text-color);
   font-style: normal;
   font-weight: 400;
-  font-size: 10px;
-  line-height: 16px;
-  padding-left: 23px;
+  font-size: 0.6rem;
+  line-height: 1rem;
+  padding-left: 1.5rem;
 }
 
-@media (min-width: 600px){
+@media (min-width: 490px){
+  .conteudo {
+    height: 335.5vh;
+    width: 100%;
+    margin: 0 auto;
+    flex-grow: 1;
+  }
+
   .menu-header {
     background-image: url('./assets/logo-header.png');
 
@@ -368,10 +354,42 @@ a {
     left: 70%;
   }
 
+  .paragrafo-pag-galeria-animais {
+    margin-bottom: 3rem;
+    justify-content: center;
+  }
+
+  .itens-paragrafos {
+    flex-wrap: wrap;
+    
+  }
+  
+
   .itens-lista {
+    width: 100vw;
+    height: 100vh;
     display: flex;
     flex-wrap: wrap;
-    margin-left: -6rem;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .perfil-pet-dunga,
+  .perfil-pet-felicia,
+  .perfil-pet-sirius,
+  .perfil-pet-fiona,
+  .perfil-pet-sid,
+  .perfil-pet-yoda,
+  .perfil-pet-lua,
+  .perfil-pet-amora,
+  .perfil-pet-zelda {
+
+    flex: 0 1 auto;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    width: 22rem;
+    height: 12rem;
   }
   
 }
@@ -380,8 +398,12 @@ a {
 /*=======CONFIGURAÇÃO FOOTER=======*/
 footer {
   text-align: center;
-  padding-top: 41px;
-  padding-bottom: 41px;
+
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+
+  width: 110%;
+
   color: var(--text-primary-color);
   background: var(--primary-color);
   font-family: var(--font-principal);
