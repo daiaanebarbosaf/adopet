@@ -328,25 +328,55 @@ a {
   padding-left: 1.5rem;
 }
 
-@media (min-width: 490px){
+@media (min-width: 700px){
+
+  body {
+    min-height: 100vh;
+
+    background-image: 
+    url('./assets/logo-header.png'),
+    url('./assets/tablet-forma1-header.png');
+
+    background-repeat: no-repeat;
+    background-position: 
+    left 4rem top 4rem,
+    left top;
+  }
+
+  .img-logo {
+    opacity: 0.1%;
+  }
+
+  .body-pag-galeria-animais {
+    background-color: var();
+  }
+  
   .conteudo {
-    height: 335.5vh;
+    height: 100vh;
     width: 100%;
-    margin: 0 auto;
     flex-grow: 1;
   }
 
   .menu-header {
-    background-image: url('./assets/logo-header.png');
+    background-image: 
+    url('./assets/tablet-forma1-header.png');
 
     background-repeat: no-repeat;
     background-position: 
-    left 2rem top 2rem;
-  
+    5rem left top;
+  }
+
+  .home,
+  .mensagens {
+    margin-top: -15rem;
   }
 
   .home {
-    margin-left: 8rem;
+    padding-left: 15rem;
+  }
+  .mensagens {
+    
+    margin-left: 2rem;
   }
 
   .icone-usuario {
@@ -355,23 +385,24 @@ a {
   }
 
   .paragrafo-pag-galeria-animais {
+    margin-top: -5rem;
     margin-bottom: 3rem;
     justify-content: center;
   }
 
   .itens-paragrafos {
     flex-wrap: wrap;
-    
   }
   
 
   .itens-lista {
-    width: 100vw;
-    height: 100vh;
     display: flex;
     flex-wrap: wrap;
-    margin: auto;
-    justify-content: center;
+
+    margin-top: 1rem;
+    margin-left: 3rem;
+    margin-right: initial;
+    
     align-items: center;
   }
 
@@ -384,14 +415,40 @@ a {
   .perfil-pet-lua,
   .perfil-pet-amora,
   .perfil-pet-zelda {
+    
+    margin-bottom: initial;
+    margin-right: 1rem;
 
     flex: 0 1 auto;
-    margin-right: 1rem;
-    margin-bottom: 1rem;
+
     width: 22rem;
     height: 12rem;
   }
+
+  ul {
+    display: initial;
+    flex-wrap: wrap;
+  }
   
+}
+
+@media (min-width: 1440px){
+
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .itens-lista {
+    display: flex;
+    flex-wrap: wrap;
+
+    margin-top: 1rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    
+    align-items: center;
+  }
 }
 
 
