@@ -3,12 +3,17 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css"/>
-    <title>Adopet</title>
+    <link rel="stylesheet" href="./css/style-mensagem.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto+Mono&display=swap" rel="stylesheet"/>
+    <title>Mensagem</title>
   </head>
-  <body>
+
+  <body class="body-pag-galeria-animais">
+    <img class="img-logo" src="./assets/forma1-header.png" alt="forma em onda verde">
     <nav id="navigation">
-      <div class="menu-header">
+      <section class="menu-header">
         <a class="home" href="#home">
           <svg 
             width="20" 
@@ -21,7 +26,7 @@
               d="M0 23V7.66667L9.66 0L19.2 7.66667V23H12.18V13.8958H6.99V23H0ZM1.8 21.0833H5.19V11.9792H13.98V21.0833H17.4V8.625L9.66 2.39583L1.8 8.625V21.0833Z" 
               fill="white"
             />
-            </svg>   
+          </svg>   
         </a>
         <a class="mensagens"href="#mensagens">
           <svg 
@@ -61,11 +66,32 @@
             />
           </svg>
         </a>
-      </div>
+      </section>
     </nav>
 
-    <main>
-     
+    <main class="conteudo">
+      <section >
+        <p class="paragrafo-pag-mensagem">Envie uma mensagem para a pessoa ou instituição que está cuidado do animal:</p>
+      </section>
+
+      <form class="form-pag-mensagem" action="">
+        <label class="labels-pag-mensagem"for="name">Nome:</label>
+        <input class="input-forms-pag-mensagem" type="name" id="email" required placeholder="Insira seu nome completo">
+
+        <label class="labels-pag-mensagem"for="tel">Telefone:</label>
+        <input class="input-forms-pag-mensagem" type="tel" id="name" required placeholder="Insira seu telefone e/ou WhatsApp">
+
+        <label class="labels-pag-mensagem"for="name">Nome do animal:</label>
+        <input class="input-forms-pag-mensagem" type="name" id="name" required placeholder="Por qual animal você se interessou?">
+
+        <label class="labels-pag-mensagem"for="text">Mensagem:</label>
+        <input class="input-forms-pag-mensagem"type="text-area" id="text" required placeholder="Escreva sua mensagem">
+
+        <a href="./assets/senha-protegida.png"></a>
+
+          <button class="button-mensagem-enviar">Enviar</button>
+      
+      </form>
     </main>
 
     <footer>2022 - Desenvolvido por Alura.</footer>
