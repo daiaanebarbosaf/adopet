@@ -352,9 +352,10 @@ a {
   }
   
   .conteudo {
-    height: 100vh;
+    height: 180vh;
     width: 100%;
-    flex-grow: 1;
+    
+    flex-grow: 3;
   }
 
   .menu-header {
@@ -375,7 +376,6 @@ a {
     padding-left: 15rem;
   }
   .mensagens {
-    
     margin-left: 2rem;
   }
 
@@ -394,6 +394,9 @@ a {
     flex-wrap: wrap;
   }
   
+  .paragrafo-pag-galeria-animais {
+    margin-top: -10rem;
+  }
 
   .itens-lista {
     display: flex;
@@ -432,26 +435,6 @@ a {
   
 }
 
-@media (min-width: 1440px){
-
-  ul {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  .itens-lista {
-    display: flex;
-    flex-wrap: wrap;
-
-    margin-top: 1rem;
-    margin-left: 5rem;
-    margin-right: 5rem;
-    
-    align-items: center;
-  }
-}
-
-
 /*=======CONFIGURAÇÃO FOOTER=======*/
 footer {
   text-align: center;
@@ -468,4 +451,44 @@ footer {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
+}
+
+@media (min-width: 1024px){
+
+  body {
+    max-width: 170vh;
+    min-height: 80vh;
+    background-image: url('./assets/desktop-forma2-body.png'),
+    url('./assets/logo-header.png'),
+    url('./assets/tablet-forma1-header.png');
+
+
+    background-repeat: no-repeat;
+    background-position: 
+    right -1.5rem top 15rem,
+    left 4rem top 4rem,
+    left top;
+  }
+
+  .icone-usuario {
+    position: absolute;
+    left: 80%;
+  }
+  
+  .conteudo {
+    height: 50%;
+    width: 110%;
+    flex-grow: 3;
+  }
+
+  .itens-lista {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5rem;
+  }
+
+  footer {
+    width: 123%;
+  }
+
 }
