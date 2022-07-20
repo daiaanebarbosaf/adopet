@@ -45,7 +45,6 @@ body {
   padding-left: 9rem;
 }
 
-
 .paragrafo-pag-mensagem {
 
   display: flex;
@@ -66,12 +65,20 @@ body {
 }
 
 form {
-  background-color: var(--segundary-text-color);
+  background-color: var(--color-fund-input);
   padding-top: 1rem;
   padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+
+  width: 20rem;
 
   margin-top: 2rem;
   margin-bottom: 1rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+
+  border-radius: 1rem;
   
 }
 
@@ -80,10 +87,10 @@ form {
   font-family: var(--font-principal);
   font-style: normal;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 24px;
 
-  margin-left: 2rem;
+  margin-left: 1.5rem;
   margin-top: 24px;
   display: flex;
   color: var(--segundary-color);
@@ -93,47 +100,28 @@ form {
   font-family: var(--font-principal);
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 0.7rem;
   line-height: 16px;
+
   margin-top: 6px;
   display: flex;
-  justify-items: center;
-  text-align: center;
-  width: 312px;
-  height: 40px;
+
+  align-items: center;
+
+  text-align: left;
+
+  width: 16rem;
+  height: 2.5rem;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 6px;
+
+  padding-left: 1rem;
+  border-radius: 0.5rem;
   
   border-style: none; 
   box-shadow: 1px 1px 3px var(--segundary-text-color);
 }
 
-.input-forms-pag-mensagem-senha-protegida {
-  font-family: var(--font-principal);
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 16px;
-  margin-top: 6px;
-  display: flex;
-  justify-items: center;
-  text-align: center;
-  width: 312px;
-  height: 40px;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 6px;
-  background-color: var(--color-fund-input);
-  border-style: none; 
-  box-shadow: 1px 1px 3px var(--segundary-text-color);
-
-  background-image: url('./assets/senha-protegida.png');
-
-  background-repeat: no-repeat;
-  background-position: 
-  right 1rem center;
-}
 /*=======CONFIGURAÇÃO DOS BOTOES DA PÁGINA DE CADASTRO=======*/
 
 .button-mensagem-enviar {
@@ -161,8 +149,6 @@ footer {
   padding-top: 3rem;
   padding-bottom: 3rem;
 
-  width: 110%;
-
   color: var(--text-primary-color);
   background: var(--primary-color);
   font-family: var(--font-principal);
@@ -172,3 +158,68 @@ footer {
   line-height: 24px;
 }
 
+@media (min-width: 400px){
+  body {
+    min-height: 100vh;
+
+    background-image: 
+    url('../assets/logo-header.png'),
+    url('../assets/tablet-forma1-header.png'),
+    url('../assets/forma2-body.png');
+
+    background-position: 
+    left 4rem top 4rem,
+    left top,
+    right, center;
+
+  }
+
+  .menu-header {
+    display: flex;
+    margin-bottom: 4rem;
+
+    margin-left: 12rem;
+  }
+
+  .home,
+  .mensagens {
+    margin-top: -14.8rem;
+    padding-left: 3rem;
+  }
+
+  .icone-usuario {
+    margin-top: -16.5rem;
+    padding-left: 22rem;
+  }
+
+  .img-logo {
+    opacity: 0.1%;
+  }  
+
+  .paragrafo-pag-mensagem {
+    margin-top: -3rem;
+  
+    padding-left: 7rem;
+    padding-right: 10rem;
+    
+  }
+
+  form {
+    width: 35rem;
+    
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .labels-pag-mensagem {
+    margin-left: -0.2rem;
+  }
+
+  .input-forms-pag-mensagem {
+    margin-left: -0.2rem;;
+
+    width: 33rem;
+  }
+
+}
