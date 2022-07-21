@@ -3,12 +3,16 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css"/>
-    <title>Adopet</title>
+    <link rel="stylesheet" href="../adopet-main/css/style-perfil.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto+Mono&display=swap" rel="stylesheet"/>
+    <title>Perfil</title>
   </head>
   <body>
+    <img class="img-logo" src="./assets/forma1-header.png" alt="forma em onda verde">
     <nav id="navigation">
-      <div class="menu-header">
+      <section class="menu-header">
         <a class="home" href="#home">
           <svg 
             width="20" 
@@ -21,7 +25,7 @@
               d="M0 23V7.66667L9.66 0L19.2 7.66667V23H12.18V13.8958H6.99V23H0ZM1.8 21.0833H5.19V11.9792H13.98V21.0833H17.4V8.625L9.66 2.39583L1.8 8.625V21.0833Z" 
               fill="white"
             />
-            </svg>   
+          </svg>   
         </a>
         <a class="mensagens"href="#mensagens">
           <svg 
@@ -59,13 +63,36 @@
               d="M30.2645 31H10.7354C10.3297 30.9994 10.0006 30.6702 10 30.2645V28.5C10 25.7154 11.1063 23.0446 13.0754 21.0754C15.0446 19.1063 17.7154 18 20.5 18C23.2845 18 25.9554 19.1063 27.9245 21.0754C29.8936 23.0446 30.9999 25.7154 30.9999 28.5V30.2645C30.9994 30.6702 30.6702 30.9994 30.2645 31ZM11 30H29.9999V28.5C29.9999 25.9805 28.9994 23.564 27.2177 21.7828C25.4359 20.0011 23.02 19 20.5005 19C17.9811 19 15.5646 20.0011 13.7828 21.7828C12.0011 23.5646 11.0006 25.9805 11.0006 28.5V30H11Z" 
               fill="#36D6AD"
             />
-            </svg>
+          </svg>
         </a>
-      </div>
+      </section>
     </nav>
 
     <main>
-     
+     <p class="paragrafo-pag-perfil">Esse é o perfil que aparece para responsáveis ou ONGs que recebem sua mensagem.</p>
+
+     <form class="form-pag-perfil" action="">
+      <p class="paragrafo-pag-perfil-form ">Perfil</p>
+
+      <label class="labels-pag-perfil"for="image">Foto</label>
+      <input class="input-forms-pag-perfil-img" type="image" id="image" src="../adopet-main/assets/usuario.png">
+
+      <a href="">Clique na foto para editar</a>
+
+      <label class="labels-pag-perfil"for="name">Nome:</label>
+      <input class="input-forms-pag-perfil" type="name" id="email" required placeholder="Joana Magalhães">
+
+      <label class="labels-pag-perfil"for="tel">Telefone:</label>
+      <input class="input-forms-pag-perfil" type="tel" id="tel" required placeholder="55 11 XXXXXXXXX">
+
+      <label class="labels-pag-perfil"for="name">Cidade:</label>
+      <input class="input-forms-pag-perfil" type="text" id="text" required placeholder="São Paulo">
+
+      <label class="labels-pag-perfil"for="text">Mensagem:</label>
+      <input class="input-forms-pag-perfil-mensagem"type="text-area" id="text" required placeholder="At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati.">
+
+        <button class="button-perfil-salvar">Salvar</button>
+    </form>
     </main>
 
     <footer>2022 - Desenvolvido por Alura.</footer>
