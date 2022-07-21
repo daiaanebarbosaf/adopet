@@ -19,17 +19,6 @@
   --font-secundaria: 'IBM Plex Sans', sans-serif;
 }
 
-body {
-  min-height: 100vh;
-
-  background-image: 
-    url('./assets/tablet-forma1-header');
-
-    background-repeat: no-repeat;
-    background-position: 
-    left top;
-}
-
 .menu-header {
   display: flex;
 }
@@ -45,7 +34,7 @@ body {
   padding-left: 9rem;
 }
 
-.paragrafo-pag-mensagem {
+.paragrafo-pag-perfil {
 
   display: flex;
 
@@ -60,9 +49,21 @@ body {
   margin-top: -5rem;
 
   padding-left: 4rem;
-  padding-right: 5rem;
+  padding-right: 4rem;
   
 }
+
+.paragrafo-pag-perfil-form {
+  font-family: var(--font-principal);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 2rem;
+
+  text-align: center;
+
+  color: var(--segundary-text-color)
+} 
 
 form {
   background-color: var(--color-fund-input);
@@ -83,7 +84,32 @@ form {
 }
 
 /*=======CONFIGURAÇÃO DOS FORMS PÁGINA CADASTRO=======*/
-.labels-pag-mensagem {
+
+.input-forms-pag-perfil-img {
+  display: flex;
+
+  padding-left: 6.5rem;
+
+  margin-bottom: 0.5rem;
+}
+
+a {
+  text-decoration: none;
+  
+
+  color: var(--color-button-pag-inicial);
+  
+  font-family: var(--font-principal);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1rem;
+
+  padding-left: 2rem;
+}
+
+
+.labels-pag-perfil{
   font-family: var(--font-principal);
   font-style: normal;
   font-weight: 600;
@@ -96,7 +122,8 @@ form {
   color: var(--segundary-color);
 }
 
-.input-forms-pag-mensagem {
+.input-forms-pag-perfil,
+.input-forms-pag-perfil-mensagem {
   font-family: var(--font-principal);
   font-style: normal;
   font-weight: 400;
@@ -122,9 +149,17 @@ form {
   box-shadow: 1px 1px 3px var(--segundary-text-color);
 }
 
+.input-forms-pag-perfil-mensagem {
+  display: flex;
+  flex-wrap: wrap;
+
+  height: 14rem;
+
+}
+
 /*=======CONFIGURAÇÃO DOS BOTOES DA PÁGINA DE CADASTRO=======*/
 
-.button-mensagem-enviar {
+.button-perfil-salvar {
   font-family: var(--font-principal);
   font-style: normal;
   font-weight: 600;
@@ -141,8 +176,6 @@ form {
   border-style: none;
   display: block;
 }
-
-/*=======CONFIGURAÇÃO FOOTER=======*/
 footer {
   text-align: center;
 
@@ -168,18 +201,13 @@ footer {
     url('../assets/tablet-forma1-header.png'),
     url('../assets/forma2-body.png');
 
+    background-repeat: no-repeat;
     background-position: 
     left 4rem top 4rem,
     left top,
     right, center;
 
   }
-
-  .icone-usuario {
-    margin-top: -16.5rem;
-    padding-left: 68rem;
-  }
-
   .menu-header {
     display: flex;
     margin-bottom: 4rem;
@@ -195,17 +223,12 @@ footer {
 
   .icone-usuario {
     margin-top: -16.5rem;
-    padding-left: 68rem;
+    padding-left: 11rem;
   }
 
   .img-logo {
     opacity: 0.1%;
   }  
-
-  .paragrafo-pag-mensagem {
-    padding-left: 5rem;
-    padding-right: 3rem;
-  }
 
   form {
     width: 22rem;
@@ -215,11 +238,11 @@ footer {
     margin-bottom: 1rem;
   }
 
-  .labels-pag-mensagem {
+  .labels-pag-perfil {
     margin-left: -0.2rem;
   }
 
-  .input-forms-pag-mensagem {
+  .input-forms-pag-perfi {
     margin-left: -0.2rem;;
 
     width: 20rem;
@@ -228,7 +251,7 @@ footer {
 
 @media (min-width: 768px){
 
-  .paragrafo-pag-mensagem {
+  .paragrafo-pag-perfil {
     padding-left: 15rem;
     padding-right: 13rem;
   }
@@ -241,7 +264,15 @@ footer {
     margin-bottom: 1rem;
   }
 
-  .input-forms-pag-mensagem {
+  .input-forms-pag-perfil-img {
+    padding-left: 14rem;
+  }
+  
+  a {
+    padding-left: 10rem;
+  }
+
+  .input-forms-pag-perfil {
     margin-left: -0.2rem;;
 
     width: 33rem;
@@ -250,46 +281,15 @@ footer {
 }
 
 @media (min-width: 1400px){
-  body {
-    min-height: 100vh;
-
-    background-image: 
-    url('../assets/logo-header.png'),
-    url('../assets/tablet-forma1-header.png'),
-    url('../assets/forma2-body.png');
-
-    background-position: 
-    left 4rem top 4rem,
-    left top,
-    right, center;
-
-  }
-
-  .menu-header {
-    display: flex;
-    margin-bottom: 4rem;
-
-    margin-left: 12rem;
-  }
-
-  .home,
-  .mensagens {
-    margin-top: -14.8rem;
-    padding-left: 3rem;
-  }
 
   .icone-usuario {
     margin-top: -16.5rem;
     padding-left: 68rem;
   }
 
-  .img-logo {
-    opacity: 0.1%;
-  }  
-
-  .paragrafo-pag-mensagem {
-    padding-left: 35rem;
-    padding-right: 36rem;
+  .paragrafo-pag-perfil {
+    padding-left: 30rem;
+    padding-right: 31rem;
   }
 
   form {
@@ -305,8 +305,9 @@ footer {
   }
 
   .input-forms-pag-mensagem {
-    margin-left: -0.2rem;
+    margin-left: -0.2rem;;
 
     width: 33rem;
   }
+
 }
