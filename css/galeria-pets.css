@@ -43,7 +43,7 @@ body {
 /*=======CONFIGURAÇÃO CONTEUDO=======*/
 
 .conteudo {
-  height: 290vh;
+  height: 295vh;
   width: 70%;
   margin: 0 auto;
   flex-grow: 1;
@@ -424,12 +424,14 @@ footer {
   body {
     background-image: 
     url('../assets/logo-header.png'),
-    url('../assets/tablet-forma1-header.png');
+    url('../assets/tablet-forma1-header.png'),
+    url('../assets/usuario-sem-foto.png');
 
     background-repeat: no-repeat;
     background-position: 
     left 4rem top 4rem,
-    left top;
+    left top,
+    right 4rem top 2rem;
   }
 
   .menu-header {
@@ -440,6 +442,10 @@ footer {
   .home,
   .mensagens {
     margin-top: -15rem;
+  }
+
+  .icone-usuario {
+    opacity: 0.1%;
   }
   .img-logo {
     opacity: 0.1%;
@@ -522,10 +528,6 @@ footer {
 }
 
 @media (min-width: 1141px){
-  .icone-usuario {
-    margin-top: -16.5rem;
-    padding-left: 55rem;
-  }
 
   .conteudo {
     height: 120vh;
