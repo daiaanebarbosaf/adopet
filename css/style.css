@@ -4,60 +4,89 @@
   box-sizing: border-box;
 }
 
-html {
+:root {
   --primary-color: #36D6AD;
   --segundary-color: #3772FF;
   --text-primary-color: #FFFFFF;
   --segundary-text-color: #737380;
+  --third-text-color: #BCBCBC;
   --color-button-pag-inicial: #FC7071;
+  --color-fund-input: #F6F6F6;
+  --color-creme: #FCF0E3;
+  --color-cinza-text-input: #BCBCBC;
 
+  --font-principal:'Poppins', sans-serif;
+  --font-secundaria: 'IBM Plex Sans', sans-serif;
 }
 
 body {
-  background: var(--segundary-color);
-  font-family: 'Poppins', sans-serif;
-  font-family: 'Roboto Mono', monospace;
+  background-image: 
+  url('../assets/forma1-header.png'), 
+  url('../assets/forma2-body.png'), 
+  url('../assets/cat-dog.png');
+
+  background-repeat: no-repeat;
+  background-position: 
+  left top, 
+  right center,
+  bottom 5em center;
+
+  min-height: 100vh;/*definindo tamanho da página*/
+
+  font-size: 16px;
+  font-family: var(--font-principal);
+}
+
+.background-body {
+  background-color: var(--segundary-color);
 }
 
 /*======CONFIGURAÇÕES MENU DE HOME E MENSAGEM DO HEADER====*/
 
 .menu-header {
-  display: flex;
-  margin-top: 48px;
-
+  margin-top: 3rem;
 }
 .home,
 .mensagens {
-  padding-left: 58.61px;
   
-}
-
-.icone-usuario {
-  padding-left: 150px;
-  padding-right: 37px
+  padding-left: 3rem;
 }
 
 /*=======CONFIGURAÇÃO LOGO=======*/
 .logo-index {
   display: flex;
-  padding-top: 98.99px;
-  padding-bottom: 24px;
+  padding-top: 7rem;
   justify-content: center;
 }
 
 /*=======CONFIGURAÇÃO DOS TEXTOS DA PÁGINA INICIAL=======*/
+
+.conteudo {
+  height: 100vh;
+  width: 70%;
+  margin: 0 auto;
+  flex-grow: 1;
+}
 
 .textos-pag-inicial {
   text-align: center;
   color: var(--text-primary-color);
 }
 
-.h2-pag-inicial {
-  padding-top: 24px;
+.h1-pag-inicial {
+  font-family: var(--font-secundaria);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
   padding-bottom: 16px;
 }
 
 .paragrafo-pag-inicial {
+  font-family: var(--font-principal);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
   padding-left: 56px;
   padding-right: 56px;
 }
@@ -71,6 +100,7 @@ body {
 }
 
 .button-ja-tenho-conta {
+  font-family: var(--font-principal);
   font-size: 16px;
   width: 180px;
   height: 40px;
@@ -85,6 +115,7 @@ body {
 }
 
 .button-quero-me-cadastrar {
+  font-family: var(--font-principal);
   font-size: 16px;
   width: 180px;
   height: 40px;
@@ -97,22 +128,35 @@ body {
   box-shadow: 1px 1px 3px var(--segundary-text-color);
 }
 
-/*=======CONFIGURAÇÃO DA IMAGEM DO CACHORRO DA PÁGINA INICIAL=======*/
-.img-dog-coracoes-pag-inicial {
-  display: flex;
-  margin-left: 7rem;
-  padding-top: 16px;
-}
-
 /*=======CONFIGURAÇÃO FOOTER=======*/
 footer {
-
   text-align: center;
   padding-top: 41px;
   padding-bottom: 41px;
   color: var(--text-primary-color);
-  font-family: 'Poppins', sans-serif;
-  font-size: 13px;
   background: var(--primary-color);
-  margin-top: -1rem;
+  font-family: var(--font-principal);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
 }
+
+
+@media (min-width: 600px){
+  .menu-header {
+    background-image: url('./assets/logo-header.png');
+
+    background-repeat: no-repeat;
+    background-position: 
+    left 2rem top 2rem;
+
+    padding-top: 2em;
+  
+  }
+
+  .home {
+    margin-left: 9rem;
+  }
+}
+
