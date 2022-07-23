@@ -21,13 +21,12 @@
 
 body {
   background-image: 
-  url('../assets/forma1-header.png'), 
+  
   url('../assets/forma2-body.png'), 
   url('../assets/cat-dog.png');
 
   background-repeat: no-repeat;
   background-position: 
-  left top, 
   right center,
   bottom 5em center;
 
@@ -44,19 +43,17 @@ body {
 /*======CONFIGURAÇÕES MENU DE HOME E MENSAGEM DO HEADER====*/
 
 .menu-header {
-  margin-top: 3rem;
+  margin-top: -16rem;
 }
 .home,
 .mensagens {
-  
   padding-left: 3rem;
 }
 
 /*=======CONFIGURAÇÃO LOGO=======*/
 .logo-index {
-  display: flex;
-  padding-top: 7rem;
-  justify-content: center;
+  margin-top: 6rem;
+  text-align: center;
 }
 
 /*=======CONFIGURAÇÃO DOS TEXTOS DA PÁGINA INICIAL=======*/
@@ -142,21 +139,49 @@ footer {
   line-height: 24px;
 }
 
+@media (min-width: 768px){
 
-@media (min-width: 600px){
-  .menu-header {
-    background-image: url('./assets/logo-header.png');
+  body {
+    background-image: 
+    url('../assets/logo-header.png'),
+    url('../assets/tablet-forma1-header.png'),
+    url('../assets/forma2-body.png'), 
+    url('../assets/cat-dog.png');
 
-    background-repeat: no-repeat;
     background-position: 
-    left 2rem top 2rem;
-
-    padding-top: 2em;
-  
+    left 4rem top 4rem,
+    left top,
+    right center,
+    bottom 5em center;
   }
 
-  .home {
-    margin-left: 9rem;
+  .menu-header {
+    display: flex;
+    padding-left: 11rem;
+  }
+
+  .home,
+  .mensagens {
+    margin-top: 1rem;
+  }
+  .img-logo {
+    opacity: 0.1%;
+  }  
+
+  .logo-index {
+    margin-top: 10rem;
+    text-align: center;
+  }
+
+  .conteudo {
+    height: 95vh;
+    
+  }
+  
+  
+  .button-ja-tenho-conta,
+  .button-quero-me-cadastrar {
+    width: 27rem;
   }
 }
 
