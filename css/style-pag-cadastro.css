@@ -21,9 +21,9 @@
 
 body {
   background-image:
-  url('./assets/patinhas.png'),
-  url('./assets/forma1-header.png'), 
-  url('./assets/forma3-body.png');
+  url('../assets/patinhas.png'),
+  url('../assets/forma1-header.png'), 
+  url('../assets/forma3-body.png');
 
   background-repeat: no-repeat;
   background-position: 
@@ -50,11 +50,11 @@ body {
 }
 
 /*=======CONFIGURAÇÃO LOGO=======*/
-.logo-pag-cadastro {
-  display: flex;
-  padding-top: 86.99px;
-  padding-bottom: 24px;
-  justify-content: center;
+.logo-index {
+  margin-top: 9rem;
+  margin-bottom: 1rem;
+
+  text-align: center;
 }
 
 /*=======CONFIGURAÇÃO DOS TEXTOS DA PÁGINA DE CADASTRO=======*/
@@ -165,4 +165,52 @@ footer {
   font-size: 13px;
   background: var(--primary-color);
   margin-top: -1rem;
+}
+
+@media (min-width: 768px){
+
+  body {
+    background-image: 
+    url('../assets/logo-header.png'),
+    url('../assets/tablet-forma1-header.png'),
+    url('../assets/forma2-body.png'), 
+    url('../assets/patinhas.png');
+
+    background-position: 
+    left 4rem top 4rem,
+    left top,
+    right center,
+    right top;
+  }
+
+  .menu-header {
+    display: flex;
+    padding-left: 11rem;
+  }
+
+  .home,
+  .mensagens {
+    margin-top: 1rem;
+  }
+  .img-logo {
+    opacity: 0.1%;
+  }  
+
+}
+
+@media (min-width: 1000px){
+  body {
+    background-image: 
+    url('../assets/logo-header.png'),
+    url('../assets/tablet-forma1-header.png'),
+    url('../assets/desktop-forma2-body.png'), 
+    url('../assets/patinhas.png');
+
+    background-position: 
+    left 4rem top 4rem,
+    left top,
+    right center,
+    right top;
+  }
+
 }
