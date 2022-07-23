@@ -22,21 +22,15 @@
 body {
   min-height: 100vh;
 
-  background-image: 
-    url('./assets/tablet-forma1-header');
-
-    background-repeat: no-repeat;
-    background-position: 
-    left top;
 }
 
 .menu-header {
   display: flex;
+  margin-bottom: 4rem;
 }
-
 .home,
 .mensagens {
-  margin-top: -18rem;
+  margin-top: -16rem;
   padding-left: 3rem;
 }
 
@@ -57,7 +51,7 @@ body {
 
 
   color: var(--segundary-color);
-  margin-top: -5rem;
+  margin-top: -13rem;
 
   padding-left: 4rem;
   padding-right: 5rem;
@@ -160,47 +154,11 @@ footer {
 
 
 @media (min-width: 481px){
-  body {
-    min-height: 100vh;
-
-    background-image: 
-    url('../assets/logo-header.png'),
-    url('../assets/tablet-forma1-header.png'),
-    url('../assets/forma2-body.png');
-
-    background-position: 
-    left 4rem top 4rem,
-    left top,
-    right, center;
-
-  }
 
   .icone-usuario {
     margin-top: -16.5rem;
-    padding-left: 68rem;
+    padding-left: 14rem;
   }
-
-  .menu-header {
-    display: flex;
-    margin-bottom: 4rem;
-
-    margin-left: 12rem;
-  }
-
-  .home,
-  .mensagens {
-    margin-top: -14.8rem;
-    padding-left: 3rem;
-  }
-
-  .icone-usuario {
-    margin-top: -16.5rem;
-    padding-left: 68rem;
-  }
-
-  .img-logo {
-    opacity: 0.1%;
-  }  
 
   .paragrafo-pag-mensagem {
     padding-left: 5rem;
@@ -228,9 +186,44 @@ footer {
 
 @media (min-width: 768px){
 
+  body {
+    background-image: 
+    url('../assets/logo-header.png'),
+    url('../assets/tablet-forma1-header.png'),
+    url('../assets/forma2-body.png'),
+    url('../assets/usuario-sem-foto.png');
+
+    background-repeat: no-repeat;
+    background-position: 
+    left 4rem top 4rem,
+    left top,
+    right center,
+    right 4rem top 2rem;
+  }
+
+  .menu-header {
+    display: flex;
+    padding-left: 11rem;
+  }
+
+  .home,
+  .mensagens {
+    margin-top: -15rem;
+  }
+
+  .icone-usuario {
+    opacity: 0.1%;
+  }
+
+  .img-logo {
+    opacity: 0.1%;
+  } 
+
   .paragrafo-pag-mensagem {
     padding-left: 15rem;
     padding-right: 13rem;
+
+    margin-top: -5rem;
   }
 
   form {
@@ -249,19 +242,20 @@ footer {
 
 }
 
-@media (min-width: 1400px){
+@media (min-width: 1150px){
   body {
-    min-height: 100vh;
 
     background-image: 
     url('../assets/logo-header.png'),
     url('../assets/tablet-forma1-header.png'),
-    url('../assets/forma2-body.png');
+    url('../assets/forma2-body.png'),
+    url('../assets/usuario-sem-foto.png');
 
     background-position: 
     left 4rem top 4rem,
     left top,
-    right, center;
+    right center,
+    right 4rem top 2rem;
 
   }
 
@@ -269,7 +263,7 @@ footer {
     display: flex;
     margin-bottom: 4rem;
 
-    margin-left: 12rem;
+    margin-left: 1rem;
   }
 
   .home,
@@ -278,18 +272,12 @@ footer {
     padding-left: 3rem;
   }
 
-  .icone-usuario {
-    margin-top: -16.5rem;
-    padding-left: 68rem;
-  }
-
   .img-logo {
     opacity: 0.1%;
   }  
 
   .paragrafo-pag-mensagem {
-    padding-left: 35rem;
-    padding-right: 36rem;
+    padding-left: 22rem;
   }
 
   form {
