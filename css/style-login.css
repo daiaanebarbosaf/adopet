@@ -21,9 +21,9 @@
 
 body {
   background-image:
-  url('./assets/patinhas.png'),
-  url('./assets/forma1-header.png'), 
-  url('./assets/forma3-body.png');
+  url('../assets/patinhas.png'),
+  url('../assets/forma1-header.png'), 
+  url('../assets/forma3-body.png');
 
   background-repeat: no-repeat;
   background-position: 
@@ -31,7 +31,7 @@ body {
   left top, 
   left 68%;
 
-  min-height: 100vh;/*definindo tamanho da página*/
+  min-height: 100vh;
 }
 
 .body-pag-login {
@@ -56,7 +56,7 @@ body {
   padding-top: 86.99px;
   padding-bottom: 24px;
   justify-content: center;
-  margin-bottom: 40px;
+  
 }
 
 /*=======CONFIGURAÇÃO CONTEUDO DA PÁGINA=======*/
@@ -135,7 +135,7 @@ body {
   border-style: none; 
   box-shadow: 1px 1px 3px var(--segundary-text-color);
 
-  background-image: url('./assets/senha-protegida.png');
+  background-image: url('../assets/senha-protegida.png');
 
   background-repeat: no-repeat;
   background-position: 
@@ -187,4 +187,56 @@ footer {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
+}
+
+@media (min-width: 768px){
+
+  body {
+    background-image: 
+    url('../assets/logo-header.png'),
+    url('../assets/tablet-forma1-header.png'),
+    url('../assets/forma2-body.png'), 
+    url('../assets/patinhas.png');
+
+    background-position: 
+    left 4rem top 4rem,
+    left top,
+    right center,
+    right top;
+  }
+
+  .menu-header {
+    display: flex;
+    padding-left: 11rem;
+  }
+
+  .home,
+  .mensagens {
+    margin-top: 1rem;
+  }
+  .img-logo {
+    opacity: 0.1%;
+  }  
+
+  .logo-pag-login {
+    margin-top: 3rem;
+  }
+
+}
+
+@media (min-width: 1000px){
+  body {
+    background-image: 
+    url('../assets/logo-header.png'),
+    url('../assets/tablet-forma1-header.png'),
+    url('../assets/patinhas.png'), 
+    url('../assets/desktop-forma2-body.png');
+
+    background-position: 
+    left 4rem top 4rem,
+    left top,
+    right top,
+    right 45%;
+  }
+
 }
