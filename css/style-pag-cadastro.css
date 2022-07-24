@@ -213,4 +213,9 @@ footer {
     right top;
   }
 
+  .input-name,
+  .input-email {
+    width: 30rem;
+  }
+
 }
