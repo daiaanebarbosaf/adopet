@@ -129,6 +129,10 @@ body {
   box-shadow: 1px 1px 3px var(--segundary-text-color);
 }
 
+.button-quero-me-cadastrar:hover {
+  background: var(--color-button-hover);
+}
+
 /*=======CONFIGURAÇÃO FOOTER=======*/
 footer {
   text-align: center;
