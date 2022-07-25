@@ -11,6 +11,7 @@
   --segundary-text-color: #737380;
   --third-text-color: #BCBCBC;
   --color-button-pag-inicial: #FC7071;
+  --color-button-hover: #FF9D9E;
   --color-fund-input: #F6F6F6;
   --color-creme: #FCF0E3;
   --primary-color-background: #E5E5E5;
@@ -134,6 +135,10 @@ form {
   background: var(--color-button-pag-inicial);
   border-style: none;
   display: block;
+}
+
+.button-mensagem-enviar:hover {
+  background: var(--color-button-hover);
 }
 
 /*=======CONFIGURAÇÃO FOOTER=======*/
