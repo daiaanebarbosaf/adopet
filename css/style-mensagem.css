@@ -91,7 +91,8 @@ form {
   color: var(--segundary-color);
 }
 
-.input-forms-pag-mensagem {
+.input-forms-pag-mensagem,
+.input-forms-pag-perfil-mensagem {
   font-family: var(--font-principal);
   font-style: normal;
   font-weight: 400;
@@ -115,6 +116,17 @@ form {
   
   border-style: none; 
   box-shadow: 1px 1px 3px var(--segundary-text-color);
+}
+
+.input-forms-pag-mensagem {
+  display: flex;
+  flex-wrap: wrap;
+
+  margin-left: -0.2rem;
+  padding-top: 1rem;
+
+  width: 20rem;
+  height: 3rem;
 }
 
 /*=======CONFIGURAÇÃO DOS BOTOES DA PÁGINA DE CADASTRO=======*/
