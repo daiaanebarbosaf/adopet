@@ -128,7 +128,7 @@ body {
   border-style: none; 
   box-shadow: 1px 1px 3px var(--segundary-text-color);
 
-  background-image: url('./assets/senha-protegida.png');
+  background-image: url('../assets/senha-protegida.png');
 
   background-repeat: no-repeat;
   background-position: 
