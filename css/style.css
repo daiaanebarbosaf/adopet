@@ -93,7 +93,7 @@ body {
 .buttons-pag-inicial {
   display: flex;
   flex-direction: column;
-  padding-top: 24px;
+  padding-top: 1rem;
 }
 
 .button-ja-tenho-conta {
@@ -122,6 +122,7 @@ body {
   height: 40px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 1rem;
   border-radius: 6px;
   color: var(--text-primary-color);
   background: var(--color-button-pag-inicial);
