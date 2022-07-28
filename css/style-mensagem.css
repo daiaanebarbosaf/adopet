@@ -38,6 +38,7 @@ body {
 .icone-usuario {
   margin-top: -16.5rem;
   padding-left: 9rem;
+  z-index: 10;
 }
 
 .paragrafo-pag-mensagem {
