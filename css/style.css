@@ -48,6 +48,7 @@ body {
 .home,
 .mensagens {
   padding-left: 3rem;
+  z-index: 10;
 }
 
 /*=======CONFIGURAÇÃO LOGO=======*/
